@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio-v2/static/css/main.57fdc6dc.chunk.css",
-    "main.js": "/Portfolio-v2/static/js/main.02489a26.chunk.js",
-    "main.js.map": "/Portfolio-v2/static/js/main.02489a26.chunk.js.map",
+    "main.js": "/Portfolio-v2/static/js/main.b39fdb17.chunk.js",
+    "main.js.map": "/Portfolio-v2/static/js/main.b39fdb17.chunk.js.map",
     "runtime-main.js": "/Portfolio-v2/static/js/runtime-main.d361b7de.js",
     "runtime-main.js.map": "/Portfolio-v2/static/js/runtime-main.d361b7de.js.map",
     "static/css/2.ea6b7726.chunk.css": "/Portfolio-v2/static/css/2.ea6b7726.chunk.css",
-    "static/js/2.a24eede3.chunk.js": "/Portfolio-v2/static/js/2.a24eede3.chunk.js",
-    "static/js/2.a24eede3.chunk.js.map": "/Portfolio-v2/static/js/2.a24eede3.chunk.js.map",
+    "static/js/2.b0851dc0.chunk.js": "/Portfolio-v2/static/js/2.b0851dc0.chunk.js",
+    "static/js/2.b0851dc0.chunk.js.map": "/Portfolio-v2/static/js/2.b0851dc0.chunk.js.map",
     "index.html": "/Portfolio-v2/index.html",
-    "precache-manifest.59d21c7bec77de6835930289c94bdd95.js": "/Portfolio-v2/precache-manifest.59d21c7bec77de6835930289c94bdd95.js",
+    "precache-manifest.c2d7d643f815d59bd7fbbb13ca0542cd.js": "/Portfolio-v2/precache-manifest.c2d7d643f815d59bd7fbbb13ca0542cd.js",
     "service-worker.js": "/Portfolio-v2/service-worker.js",
     "static/css/2.ea6b7726.chunk.css.map": "/Portfolio-v2/static/css/2.ea6b7726.chunk.css.map",
     "static/css/main.57fdc6dc.chunk.css.map": "/Portfolio-v2/static/css/main.57fdc6dc.chunk.css.map",
-    "static/js/2.a24eede3.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.a24eede3.chunk.js.LICENSE.txt",
+    "static/js/2.b0851dc0.chunk.js.LICENSE.txt": "/Portfolio-v2/static/js/2.b0851dc0.chunk.js.LICENSE.txt",
     "static/media/blog_platform_01.png": "/Portfolio-v2/static/media/blog_platform_01.cf5760a3.png",
     "static/media/blog_platform_02_2.png": "/Portfolio-v2/static/media/blog_platform_02_2.8108a60e.png",
     "static/media/blog_platform_03.png": "/Portfolio-v2/static/media/blog_platform_03.ad95d1cf.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.d361b7de.js",
     "static/css/2.ea6b7726.chunk.css",
-    "static/js/2.a24eede3.chunk.js",
+    "static/js/2.b0851dc0.chunk.js",
     "static/css/main.57fdc6dc.chunk.css",
-    "static/js/main.02489a26.chunk.js"
+    "static/js/main.b39fdb17.chunk.js"
   ]
 }
