@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <div className="container">
-            <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
+            {/* <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div> */}
             <section className="pt-5 pb-5">
                 <div className="container upper">
                     <div className="row pl-2 pr-2 d-flex justify-content-around">
@@ -34,7 +34,7 @@ const Home = () => {
                             {/* <img className="img-fluid" src={profile} alt="" /> */}
                         </div>
                     </div>
-                    <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div>
+                    {/* <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div> */}
                 </div>
             </section>
             

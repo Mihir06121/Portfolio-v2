@@ -6,9 +6,13 @@ import project1_3 from "../../../images/assects/blog_platform_03.png"
 import project1_4 from "../../../images/assects/blog_platform_04.png"
 import project1_5 from "../../../images/assects/blog_platform_05.png"
 import project1_6 from "../../../images/assects/blog_platform_06.png"
-
+import AOS from 'aos'
 
 const BloggingPlatform = () => {
+
+    AOS.init({
+        duration: '1200'
+    })
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -56,10 +60,10 @@ const BloggingPlatform = () => {
 
     return (
         <section className="pt-5">
-            <div className="container">
-                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1">
+            <div className="container" data-aos="flip-up">
+                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="300">
                     <div className="container col-md-4 mt-5 mb-5 order-md-last">
-                        <h1 align="center" style={{fontSize:"150px"}}>02</h1>
+                        <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-left" data-aos-delay="500">02</h1>
                     </div>
                     <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} style={{height:'100px'}} />
@@ -74,18 +78,20 @@ const BloggingPlatform = () => {
                             For the frontend I used NEXT.js which is a pretty good framework of REACT.js.<br/><br/> While developing this application 
                             I came across various new concepts like Search Engine Optimization (SEO), ServerSide Rendering, hashing password, Role based Authentication etc.<br/>
                             I also came across this richtext editor named Quill supported by all mordern browers.<br/><br/>
-                            <Table borderless>
-                                <tbody>
-                                    <tr>
-                                    <td>Status:</td>
-                                    <td>In Progress</td>
-                                    </tr>
-                                    <tr>
-                                    <td>Type:</td>
-                                    <td>Solo</td>
-                                    </tr>
-                                </tbody>
-                            </Table>
+                            <div className="col-3">
+                                    <Table borderless>
+                                        <tbody>
+                                            <tr>
+                                            <td>Status:</td>
+                                            <td>On going</td>
+                                            </tr>
+                                            <tr>
+                                            <td>Type:</td>
+                                            <td>Solo</td>
+                                            </tr>
+                                        </tbody>
+                                    </Table>
+                                </div>
                         </CardBody>
                     </Card>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>

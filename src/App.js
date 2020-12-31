@@ -13,6 +13,7 @@ const App = () => {
   return (
     <>
       <Home />
+      <hr className="bg-dark mt-3 mb-3" />
       <About />
       <Projects />
       <Contact />

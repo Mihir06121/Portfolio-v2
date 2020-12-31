@@ -5,9 +5,13 @@ import project1_2 from "../../../images/assects/drive_to_park2.png"
 import project1_3 from "../../../images/assects/drive_to_park3.png"
 import project1_4 from "../../../images/assects/drive_to_park4.png"
 import project1_5 from "../../../images/assects/drive_to_park5.png"
-
+import AOS from 'aos'
 
 const Drive2Park = () => {
+
+    AOS.init({
+        duration: '1200'
+    })
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -47,10 +51,10 @@ const Drive2Park = () => {
 
     return (
         <section className="pt-5">
-            <div className="container">
-                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1">
+            <div className="container" data-aos="flip-up">
+                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="fade-up" data-aos-delay="300">
                     <div className="container col-md-4 mt-5 mb-5">
-                        <h1 align="center" style={{fontSize:"150px"}}>01</h1>
+                        <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-right" data-aos-delay="500">01</h1>
                     </div>
                     <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} />
@@ -68,19 +72,21 @@ const Drive2Park = () => {
                             <br/><br/>
                             This was MERN Stack project, so as expected we had REACT.js for the frontend styled witb BootStrap. 
                             BootStrap really helped in building this application responsive.<br/><br/>
-                            <Table borderless>
-                                <tbody>
-                                    <tr>
-                                    <td>Status:</td>
-                                    <td>Completed</td>
-                                    </tr>
-                                    <tr>
-                                    <td>Type:</td>
-                                    <td>Group <br/> <a href="https://github.com/prashantpaddune" target="_blanck">Prashant Paddune, </a> <br/>
-                                    <a href="https://github.com/akshaydonhe12" target="_blanck">Akshay Donhe</a></td>
-                                    </tr>
-                                </tbody>
-                            </Table>
+                            <div className="col-3">
+                                <Table borderless>
+                                    <tbody>
+                                        <tr>
+                                        <td>Status:</td>
+                                        <td>Completed</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Type:</td>
+                                        <td>Group <br/> <a href="https://github.com/prashantpaddune" target="_blanck">Prashant Paddune, </a> <br/>
+                                        <a href="https://github.com/akshaydonhe12" target="_blanck">Akshay Donhe</a></td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                            </div>
                         </CardBody>
                     </Card>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
