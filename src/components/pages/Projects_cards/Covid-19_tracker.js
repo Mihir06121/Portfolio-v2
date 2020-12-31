@@ -20,7 +20,7 @@ const Drive2Park = () => {
     return (
         <section className="pt-5">
             <div className="container">
-                <div className="conatiner project1 row d-flex shadow-lg align-items-center" id="project1">
+                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1">
                     <div className="container col-md-4 mt-5 mb-5">
                         <h1 align="center" style={{fontSize:"150px"}}>05</h1>
                     </div>

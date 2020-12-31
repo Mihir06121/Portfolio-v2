@@ -5,8 +5,13 @@ import YoutubeClone from "./Projects_cards/Youtube_clone"
 import DRMS from "./Projects_cards/DRMS"
 import CovidTracker from "./Projects_cards/Covid-19_tracker"
 import "./Home.css"
+import AOS from 'aos'
 
 const Projects = () => {
+
+    AOS.init({
+        duration: '1200'
+    })
 
     return (
         <section className="pt-5">

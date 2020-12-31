@@ -310,12 +310,12 @@
 .block2.vert-move {
     -webkit-animation: mover2 5s infinite  alternate;
 	animation: mover2 10s infinite  alternate ease-in-out;
-	animation-delay: 2s;
+	animation-delay: 3s;
 }
 .block2.vert-move {
     -webkit-animation: mover2 5s infinite  alternate;
 	animation: mover2 10s infinite  alternate ease-in-out;
-	animation-delay: 2s;
+	animation-delay: 3s;
 }
 
 @-webkit-keyframes mover2 {
@@ -336,21 +336,21 @@
 	border-bottom-left-radius: 40%;
 	border-top-right-radius: 40%;
 	border-left: transparent;
-	left: 50%;
+	left: 40%;
 	top: 100%;
 	width: 500px;
 	z-index: -1;
 }
 
 .block3.vert-move {
-    -webkit-animation: mover3 5s infinite  alternate;
+    -webkit-animation: mover3 8s infinite  alternate;
 	animation: mover3 10s infinite  alternate ease-in-out;
-	animation-delay: 2s;
+	animation-delay: 5s;
 }
 .block3.vert-move {
-    -webkit-animation: mover3 5s infinite  alternate;
+    -webkit-animation: mover3 8s infinite  alternate;
 	animation: mover3 10s infinite  alternate ease-in-out;
-	animation-delay: 2s;
+	animation-delay: 5s;
 }
 
 @-webkit-keyframes mover3 {
@@ -358,7 +358,7 @@
     100% { transform: translateY(400px); }
 }
 @keyframes mover3 {
-	0% { transform: translateY(100px); }
+	0% { transform: translateY(-200px); }
 	0% { transform:rotate(180deg);}
 	100% { transform: translateY(1000px); }
 }
