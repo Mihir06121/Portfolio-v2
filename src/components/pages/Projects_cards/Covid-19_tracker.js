@@ -11,6 +11,7 @@ const Drive2Park = () => {
     const project_1 = [
         {
             src: project1_1,
+            caption: '',
             altText: 'Slide 1',
             key: '1'
         }
@@ -19,11 +20,11 @@ const Drive2Park = () => {
     return (
         <section className="pt-5">
             <div className="container">
-                <div className="conatiner project1 row d-flex  align-items-center" id="project1">
-                    <div className="container col-md-3">
-                        <h1 style={{fontSize:"200px"}}>05</h1>
+                <div className="conatiner project1 row d-flex shadow-lg align-items-center" id="project1">
+                    <div className="container col-md-4 mt-5 mb-5">
+                        <h1 align="center" style={{fontSize:"150px"}}>05</h1>
                     </div>
-                    <div className="container dull col-md-9">
+                    <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} />
                     </div>
                 </div>

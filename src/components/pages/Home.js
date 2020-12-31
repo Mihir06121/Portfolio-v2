@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css'
-import { Link } from 'react-router-dom'
-import profile from "../../images/image1.png";
+// import profile from "../../images/image1.png";
 import AOS from 'aos'
 
 const Home = () => {
@@ -32,25 +31,15 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 d-flex justify-content-center shadow-lg pb-2" data-aos="fade-left" data-aos-easing="ease-in-out-back">
-                            <img className="img-fluid" src={profile} alt="" />
+                            {/* <img className="img-fluid" src={profile} alt="" /> */}
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <hr className="bg-dark"/>
-
-            <section className="pt-5 pb-5" id="about">
-                <div className="container">
-                    <h1 className="pt-3 pb-3">About</h1>
-                    <div className="pt-3 pb-3 text-right">
-                        <Link to="/about"><button className="btn btn-lg btn-primary">Know More</button></Link>
-                    </div>
+                    <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div>
                 </div>
             </section>
             
             <hr className="bg-dark"/>
-            <section  className="pt-5 pb-5" id="#projects">
+            {/* <section  className="pt-5 pb-5" id="#projects">
                 <div className="text-left header">
                     <h1 className="pt-3 pb-3">
                         Projects
@@ -104,8 +93,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div>
-            </section>
+            </section> */}
         </div>
     )
 }
