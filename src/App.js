@@ -13,10 +13,14 @@ import Footer from '../src//components/Footer'
 const App = () => {
   return (
     <>
-        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact-me" component={Contact} />
+        <Route exact path="/contact-me" component={Contact} /> */}
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
         <Footer/>
     </>
   );
