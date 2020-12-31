@@ -38,7 +38,6 @@ const Home = () => {
                 </div>
             </section>
             
-            <hr className="bg-dark"/>
             {/* <section  className="pt-5 pb-5" id="#projects">
                 <div className="text-left header">
                     <h1 className="pt-3 pb-3">

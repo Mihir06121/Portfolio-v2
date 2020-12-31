@@ -20,9 +20,10 @@ const Drive2Park = () => {
     return (
         <section className="pt-5">
             <div className="container">
-                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="300">
+                <h1>Covid-19 Tracker</h1>
+                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="800">
                     <div className="container col-md-4 mt-5 mb-5">
-                        <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-right" data-aos-delay="500">05</h1>
+                        <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-right" data-aos-delay="1000">05</h1>
                     </div>
                     <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} />

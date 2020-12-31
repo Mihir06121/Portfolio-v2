@@ -10,6 +10,10 @@ import Footer from '../src//components/Footer'
 
 
 const App = () => {
+
+  let suggestion = "For better experince switch to desktop site"
+  alert(suggestion)
+
   return (
     <>
       <Home />
