@@ -14,17 +14,19 @@ const Projects = () => {
     })
 
     return (
-        <section className="pt-5">
+        <section className="pt-5" id="projects">
             <h1 align="center" className="pb-4 pt-4" style={{fontSize:"80px"}}>My Projects</h1>
             <div className="mt-3 mb-3 mr-3 ml-3">
-                {/* <div className="vert-move block3 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="1500"></div> */}
+                <div className="vert-move block3 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="1500"></div>
                 <Drive2Park />
                 <hr className="bg-dark mb-5"/>
                 <BloggingPlatform />
                 <hr className="bg-dark mb-5"/>
                 <YoutubeClone />
+                <div className="vert-move block4 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
                 <hr className="bg-dark mb-5"/>
                 <DRMS />
+                <div className="vert-move block5 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
                 <hr className="bg-dark mb-5"/>
                 <CovidTracker />
             </div>

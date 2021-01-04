@@ -7,21 +7,31 @@ import About from '../src//components/pages/About'
 import Projects from '../src//components/pages/Projects'
 import Contact from '../src//components/pages/Contact'
 import Footer from '../src//components/Footer'
-
+import NavBar from '../src/components/Header'
+import AOS from 'aos'
 
 const App = () => {
 
-  let suggestion = "For better experince switch to desktop site"
-  alert(suggestion)
+  AOS.init({
+    duration: '800',
+  })
+
+  // let suggestion = "For better experience switch to desktop site"
+  // alert(suggestion)
 
   return (
     <>
+    <div className="container">
+      <NavBar className="fixed-top" />
       <Home />
-      <hr className="bg-dark mt-3 mb-3" />
+      <div className="p-5">
+        <hr className="bg-dark" />
+      </div>
       <About />
       <Projects />
       <Contact />
       <Footer/>
+    </div>
     </>
   );
 }

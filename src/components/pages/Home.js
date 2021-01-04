@@ -10,12 +10,14 @@ const Home = () => {
     })
 
     return (
-        <div className="container">
-            {/* <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div> */}
+        <div id="home">
+        <div className="container p-3 m-3">
+                <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
+            <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
             <section className="pt-5 pb-5">
                 <div className="container upper">
                     <div className="row pl-2 pr-2 d-flex justify-content-around">
-                        <div className="col-lg-5 order-lg-first pb-2 bg-light shadow-lg"  data-aos="flip-right" data-aos-easing="ease-out-back">
+                        <div className="col-lg-5 order-lg-first pb-2 bg-light shadow-lg"  data-aos="flip-right" data-aos-easing="ease-out-back" data-aos-delay="300">
                             <div className="h-100">
                                 <div className="d-flex h-100 ">
                                     <div className="w-100 my-auto text-left text-lg-left left-border" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="800" >
@@ -34,7 +36,7 @@ const Home = () => {
                             {/* <img className="img-fluid" src={profile} alt="" /> */}
                         </div>
                     </div>
-                    {/* <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div> */}
+                    <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div>
                 </div>
             </section>
             
@@ -93,6 +95,7 @@ const Home = () => {
                         </div>
                     </div>
             </section> */}
+        </div>
         </div>
     )
 }
