@@ -10,7 +10,7 @@ const Home = () => {
     })
 
     return (
-        <div id="home">
+        <div id="home" className="pt-5">
         <div className="container p-3 m-3">
                 <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
             <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
