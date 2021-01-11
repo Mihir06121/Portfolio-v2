@@ -11,11 +11,18 @@ const Home = () => {
 
     return (
         <div id="home" className="pt-5">
-        <div className="container p-3 m-3">
-                <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
-            <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
+        <div>
             <section className="pt-5 pb-5">
-                <div className="container upper">
+                    <h1 className="p-5">
+                        <div className="" data-aos="fade-up" data-aos-delay="00">
+                            My code DOESN’T WORK, I have no idea why.
+                        </div><br/>
+                        <div className="" data-aos="fade-up" data-aos-delay="200">
+                            My code DOSE WORK, I have no idea why.
+                        </div>
+                        <div className="col-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
+                    </h1>      
+                {/* <div className="container upper">
                     <div className="row pl-2 pr-2 d-flex justify-content-around">
                         <div className="col-lg-5 order-lg-first pb-2 bg-light shadow-lg"  data-aos="flip-right" data-aos-easing="ease-out-back" data-aos-delay="300">
                             <div className="h-100">
@@ -33,11 +40,13 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 d-flex justify-content-center shadow-lg pb-2" data-aos="fade-left" data-aos-easing="ease-in-out-back">
-                            {/* <img className="img-fluid" src={profile} alt="" /> */}
+                            <img className="img-fluid" src={profile} alt="" />
                         </div>
                     </div>
                     <div className="vert-move block2 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="2000"></div>
-                </div>
+                </div> */}
+            <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
+            <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
             </section>
             
             {/* <section  className="pt-5 pb-5" id="#projects">

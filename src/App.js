@@ -24,9 +24,6 @@ const App = () => {
     <div className="container">
       <NavBar className="fixed-top" />
       <Home />
-      <div className="p-5">
-        <hr className="bg-dark" />
-      </div>
       <About />
       <Projects />
       <Contact />

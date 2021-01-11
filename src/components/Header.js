@@ -26,13 +26,13 @@ const NavBar = (props) => {
             <Collapse className="mr-0" isOpen={isOpen} navbar>
             <Nav className="rightNav ml-auto" navbar>
                 <NavItem>
-                <NavLink href="#about" onClick={toggle}><h3>About</h3></NavLink>
+                <NavLink href="#about" onClick={toggle}><h5>About</h5></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="#projects" onClick={toggle}>Projects</NavLink>
+                <NavLink href="#projects" onClick={toggle}><h5>Projects</h5></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="#contact" onClick={toggle}>Contact</NavLink>
+                <NavLink href="#contact" onClick={toggle}><h5>Contact</h5></NavLink>
                 </NavItem>
             </Nav>
             </Collapse>         
