@@ -5,7 +5,7 @@ import './App.css';
 import Home from '../src//components/pages/Home'
 import About from '../src//components/pages/About'
 import Projects from '../src//components/pages/Projects'
-import Contact from '../src//components/pages/Contact'
+// import Contact from '../src//components/pages/Contact'
 import Footer from '../src//components/Footer'
 import NavBar from '../src/components/Header'
 import AOS from 'aos'
@@ -26,7 +26,7 @@ const App = () => {
       <Home />
       <About />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer/>
     </div>
     </>

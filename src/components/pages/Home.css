@@ -14,6 +14,18 @@
 	border-bottom: 0.5rem solid #0d6efd;
 }
 
+.parent-container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px
+}
+
+.child-container {
+	position: relative;
+}
+
 .project-card {
 	 --d: 700ms;
 	 --e: cubic-bezier(0.19, 1, 0.22, 1);
