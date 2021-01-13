@@ -19,7 +19,7 @@ const Home = () => {
                             My code <span className="text-primary">DOESN’T WORK</span>, I have no idea why.
                         </div><br/>
                         <div className="" data-aos="fade-up" data-aos-delay="200">
-                            My code <span className="text-primary">DOSE WORK</span>, I have no idea why.
+                            My code <span className="text-primary">DOES WORK</span>, I have no idea why.
                         </div>
                         <div className="col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
                     </h1>  

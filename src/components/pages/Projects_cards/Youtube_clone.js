@@ -34,8 +34,8 @@ const BloggingPlatform = () => {
                     <Card>
                         <CardBody style={{textAlign:"left"}}>
                             I went for this project as to get better hands on using APIs. This Project is also made with REACT.js
-                            along with bootstrap. The main challange I faced here is making a the streming column 
-                            static. As it would not be a good user-exprience that while a video
+                            along with bootstrap. The main challange I faced here is making a the streaming column 
+                            static. As it would not be a good user-experience that while a video
                             the player scrolls while playing.<br/><br/>
                             <div className="col-3">
                                 <Table borderless>

@@ -61,6 +61,15 @@ const Drive2Park = () => {
                         <UncontrolledCarousel items={project_1} />
                     </div>
                 </div>
+                <div className="p-3">
+                    <Collapse isOpen={!isOpen} align="center">
+                        <Card>
+                            <CardBody style={{textAlign:"left"}}>
+                                <h2>An advanced MERN stack project for booking parking space online.</h2>
+                            </CardBody>
+                        </Card>
+                    </Collapse>
+                </div> 
                 <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>
                 <Collapse isOpen={isOpen} align="center">
                     <Card>

@@ -43,7 +43,7 @@ const DRMS = () => {
     return (
         <section className="pt-5">
             <div className="container">
-                <h1>DRMS(Daliy report Management System)</h1>
+                <h1>DRMS(Daily report Management System)</h1>
                 <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="800">
                     <div className="container col-md-4 mt-5 mb-5 order-md-last">
                         <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-left" data-aos-delay="1000">04</h1>

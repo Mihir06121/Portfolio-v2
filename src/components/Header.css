@@ -1,3 +1,9 @@
 .bb{
     border-bottom: 5px solid skyblue;
 }
+
+.underline-color {  
+    text-decoration: underline;
+    -webkit-text-decoration-color:#0275d8;
+    text-decoration-color: #0275d8;
+}

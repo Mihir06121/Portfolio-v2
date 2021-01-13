@@ -19,9 +19,9 @@ const NavBar = (props) => {
   return (
     <div className="fixed-top bg-light shadow-lg bb">
       <Navbar className="ml-4 mr-4" light expand="md">
-        <NavbarBrand href="#home"><h2>
+        <NavbarBrand className="underline-color" href="#home"><h2>
             {/* <img className="d-inline-block align-top" width="50" height="50" src={profile}  alt="" /> */}
-            Mihir Panchal</h2></NavbarBrand>
+            <span className="text-primary">Mihir</span> Panchal</h2></NavbarBrand>
         <NavbarToggler onClick={toggle}/>
             <Collapse className="mr-0" isOpen={isOpen} navbar>
             <Nav className="rightNav ml-auto" navbar>
