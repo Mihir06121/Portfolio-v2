@@ -18,6 +18,7 @@ const Home = () => {
                         <div className="" data-aos="fade-up" data-aos-delay="00">
                             My code <span className="text-primary">DOESN’T WORK</span>, I have no idea why.
                         </div><br/>
+                <div className="vert-move block7 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
                         <div className="" data-aos="fade-up" data-aos-delay="200">
                             My code <span className="text-primary">DOES WORK</span>, I have no idea why.
                         </div>
@@ -25,7 +26,7 @@ const Home = () => {
                     </h1>  
                 </div>
                 <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
-                <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay=""></div>
+                <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
             </section>
             </div>
         </div>
