@@ -29,6 +29,15 @@ const BloggingPlatform = () => {
                         <UncontrolledCarousel items={project_1} />
                     </div>
                 </div>
+                <div className="p-3">
+                    <Collapse isOpen={!isOpen} align="center">
+                        <div>
+                            <CardBody style={{textAlign:"left"}}>
+                                <h1>My first React.js application with youtube API</h1>
+                            </CardBody>
+                        </div>
+                    </Collapse>
+                </div>
                 <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>
                 <Collapse isOpen={isOpen} align="center">
                     <Card>

@@ -24,15 +24,15 @@ const NavBar = (props) => {
             <span className="text-primary">Mihir</span> Panchal</h2></NavbarBrand>
         <NavbarToggler onClick={toggle}/>
             <Collapse className="mr-0" isOpen={isOpen} navbar>
-            <Nav className="rightNav ml-auto" navbar>
+            <Nav className="rightNav ml-auto text-dark" navbar>
                 <NavItem>
-                <NavLink href="#about" onClick={toggle}><h5>About</h5></NavLink>
+                <NavLink href="#about" onClick={toggle}><h4><span className="text-primary">A</span>bout</h4></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="#projects" onClick={toggle}><h5>Projects</h5></NavLink>
+                <NavLink href="#projects" onClick={toggle}><h4><span className="text-primary">P</span>rojects</h4></NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="#contact" onClick={toggle}><h5>Contact</h5></NavLink>
+                <NavLink href="#contact" onClick={toggle}><h4><span className="text-primary">C</span>ontact</h4></NavLink>
                 </NavItem>
             </Nav>
             </Collapse>         

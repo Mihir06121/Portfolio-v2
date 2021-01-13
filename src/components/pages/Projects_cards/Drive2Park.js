@@ -63,11 +63,11 @@ const Drive2Park = () => {
                 </div>
                 <div className="p-3">
                     <Collapse isOpen={!isOpen} align="center">
-                        <Card>
+                        <div>
                             <CardBody style={{textAlign:"left"}}>
                                 <h2>An advanced MERN stack project for booking parking space online.</h2>
                             </CardBody>
-                        </Card>
+                        </div>
                     </Collapse>
                 </div> 
                 <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>

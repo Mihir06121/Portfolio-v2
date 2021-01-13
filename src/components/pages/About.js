@@ -24,7 +24,7 @@ const About = () => {
                 <div className="conatiner" data-aos="fade-up" data-aos-delay="200">
                     <h1 className="m-5">Skills</h1>
                     <div className="row" data-aos="fade-up" data-aos-delay="300">
-                        <div className="col-md-2">
+                        <div className="col-md-3">
                             <h2>HTML</h2>
                         </div>
                         <div className="col-md-8">
@@ -34,7 +34,7 @@ const About = () => {
                         </div>
                     </div><br/>
                     <div className="row" data-aos="fade-up" data-aos-delay="500">
-                        <div className="col-md-2">
+                        <div className="col-md-3">
                             <h2>CSS</h2>
                         </div>
                         <div className="col-md-8">
@@ -44,7 +44,7 @@ const About = () => {
                         </div>
                     </div><br/>
                     <div className="row" data-aos="fade-up" data-aos-delay="800">
-                        <div className="col-md-2">
+                        <div className="col-md-3">
                             <h2>JAVASCRIPT</h2>
                         </div>
                         <div className="col-md-8">
@@ -54,7 +54,7 @@ const About = () => {
                         </div>
                     </div><br/>
                     <div className="row" data-aos="fade-up" data-aos-delay="900">
-                        <div className="col-md-2">
+                        <div className="col-md-3">
                             <h2>JAVA</h2>
                         </div>
                         <div className="col-md-8">
@@ -64,7 +64,7 @@ const About = () => {
                         </div>
                     </div><br/>
                     <div className="row" data-aos="fade-up" data-aos-delay="1000">
-                        <div className="col-md-2">
+                        <div className="col-md-3">
                             <h2>C and C++</h2>
                         </div>
                         <div className="col-md-8">

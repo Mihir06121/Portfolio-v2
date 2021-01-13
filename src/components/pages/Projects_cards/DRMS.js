@@ -43,7 +43,7 @@ const DRMS = () => {
     return (
         <section className="pt-5">
             <div className="container">
-                <h1>DRMS(Daily report Management System)</h1>
+                <h1>DRMS</h1>
                 <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="800">
                     <div className="container col-md-4 mt-5 mb-5 order-md-last">
                         <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-left" data-aos-delay="1000">04</h1>
@@ -51,6 +51,15 @@ const DRMS = () => {
                     <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} style={{height:'100px'}} />
                     </div>
+                </div>
+                <div className="p-3">
+                    <Collapse isOpen={!isOpen} align="center">
+                        <div>
+                            <CardBody style={{textAlign:"left"}}>
+                                <h1>DRMS (Daily Report Management Sytsem). A mini-project for College.</h1>
+                            </CardBody>
+                        </div>
+                    </Collapse>
                 </div>
                     <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>
                 <Collapse isOpen={isOpen} align="center">
