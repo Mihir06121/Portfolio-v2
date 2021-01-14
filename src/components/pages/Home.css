@@ -429,7 +429,7 @@
 .block5.vert-move {
 	position: absolute;
 	background-color:transparent;
-	border: 25px solid skyblue;
+	border: 25px solid orange;
 	height: 200px;
 	border-radius: 20%;
 	border-bottom-left-radius: 50%;
@@ -493,8 +493,8 @@
     100% { transform: translateY(400px); }
 }
 @keyframes mover6 {
-	0% { transform: translateY(100px); }
-	0% { transform:rotate(300deg);}
+	0% { transform: translateY(00px); }
+	50% { transform:rotate(300deg);}
 	100% { transform: translateY(2000px); }
 }
 
@@ -504,5 +504,37 @@
 	bottom: 0;
 	min-width: 100%; 
 	min-height: 100%;
+}
+
+.line {
+	position: relative;
+	background-color: orange;
+	left: 40%;
+	height: 10px;
+	width: 300px;
+	padding: 1px;
+	-webkit-animation: roll 3s infinite alternate ease-in-out;
+			animation: roll 3s infinite alternate ease-in-out;
+	/* transform: rotate(30deg) */
+	opacity: 5;
+	z-index: 10;
+  }
+  
+  @-webkit-keyframes roll {
+	0% {
+	  transform: rotate(0);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  @keyframes roll {
+	0% {
+	  transform: rotateY(0) translateX(-500px);
+	}
+	100% {
+	  transform: rotateY(360deg) translateX(500px);
+	}
   }
   

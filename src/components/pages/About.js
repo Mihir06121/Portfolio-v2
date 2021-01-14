@@ -75,7 +75,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section><br/>
+           <div class="line"></div>
         </div>
     )
 }

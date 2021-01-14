@@ -30,6 +30,7 @@ const Projects = () => {
                 <hr className="bg-dark mb-5"/>
                 <CovidTracker />
             </div>
+                <div class="line"></div>
         </section>
     )
 }
