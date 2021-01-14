@@ -56,14 +56,19 @@ const BloggingPlatform = () => {
                                         <tr>
                                         <td>Type:</td>
                                         <td>Solo</td>
+                                        </tr>  
+                                        <tr>
+                                        <td>deployed</td>
+                                        <td>
+                                            <a className="text-primary" href="https://mihir06121.github.io/youtube-clone/" target="_blanck">
+                                                Youtube Clone
+                                            </a>
+                                        </td>
                                         </tr>
                                     </tbody>
                                 </Table>
                             </div>
                             <div align="center">
-                                <a href="https://mihir06121.github.io/youtube-clone/" target="_blanck">
-                                    <button className="btn btn-sm btn-outline-primary">Youtube Clone</button>
-                                </a>
                             </div>
                         </CardBody>
                     </Card>

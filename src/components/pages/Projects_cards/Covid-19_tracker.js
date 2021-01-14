@@ -55,13 +55,16 @@ const Drive2Park = () => {
                                             <td>Type:</td>
                                             <td>Solo</td>
                                             </tr>
+                                            <tr>
+                                            <td>Deployed</td>
+                                            <td>
+                                                <a className="text-primary" href="https://mihir06121.github.io/Covid-19-Tracker/" target="_blanck">
+                                                     Covid-19 Tracker
+                                                </a>
+                                            </td>
+                                            </tr>
                                         </tbody>
                                     </Table>
-                                </div>
-                                <div align="center">
-                                    <a href="https://mihir06121.github.io/Covid-19-Tracker/" target="_blanck">
-                                        <button className="btn btn-sm btn-outline-primary">Covid-19 Tracker</button>
-                                    </a>
                                 </div>
                         </CardBody>
                     </Card>
