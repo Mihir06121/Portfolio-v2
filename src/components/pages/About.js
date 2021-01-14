@@ -15,7 +15,7 @@ const About = () => {
                 <p style={{fontSize:"25px"}}>
                     Currently second year student pursuing my degree in BSc. IT.<br/><br/>
                     I like to flash custom roms and custom recovery on an Android Devices and also like to play with cubes. 
-                    Sometimes love to sketch sceneries and portraites.
+                    Sometimes love to sketch sceneries and portraits.
                     <br/><br/>
                     I changed my focus to Web Development in my first year of college. 
                     I am looking forward to do some projects that would help in enhancing my skills and expand my knowledge in this field.
