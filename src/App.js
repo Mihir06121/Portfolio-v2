@@ -1,4 +1,5 @@
 import React from 'react';
+// import { useEffect, useState } from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
@@ -11,6 +12,26 @@ import NavBar from '../src/components/Header'
 import AOS from 'aos'
 
 const App = () => {
+
+  // const [isLoading, setLoading] = useState(true);
+
+  // function fakeRequest() {
+  //   return new Promise(resolve => setTimeout(() => resolve(), 200));
+  // }
+
+  // useEffect(() => {
+  //   fakeRequest().then(() => {
+  //     const el = document.querySelector(".loader-container");
+  //     if (el) {
+  //       el.remove();
+  //       setLoading(!isLoading);
+  //     }
+  //   });
+  // }, []);
+
+  // if (isLoading) {
+  //   return null;
+  // }
 
   AOS.init({
     duration: '800',

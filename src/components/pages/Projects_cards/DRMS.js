@@ -44,14 +44,18 @@ const DRMS = () => {
         <section className="pt-5">
             <div className="container">
                 <h1>DRMS</h1>
-                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" id="project1" data-aos="flip-up" data-aos-delay="800">
-                    <div className="container col-md-4 mt-5 mb-5 order-md-last">
+                <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" 
+                id="project1" data-aos="flip-up" data-aos-delay="800">
+                <div className="col-md-1 order-md-last">
+                   <div className="lineP2" data-aos="fade-in" data-aos-delay="200"></div>
+                </div>
+                    <div className="container col-md-3 mt-5 mb-5 order-md-3">
                         <h1 align="center" style={{fontSize:"150px"}} data-aos="fade-left" data-aos-delay="1000">04</h1>
                     </div>
                     <div className="container col-md-8 mt-5 mb-5">
                         <UncontrolledCarousel items={project_1} style={{height:'100px'}} />
                     </div>
-                </div>
+                </div><div className="lineP1" data-aos="fade-in" data-aos-delay="200"></div>
                 <div className="p-3">
                     <Collapse isOpen={!isOpen} align="center">
                         <div>

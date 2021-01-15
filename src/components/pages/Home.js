@@ -28,7 +28,7 @@ const Home = () => {
                 <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
                 <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
             </section>
-                <div class="line"></div>
+                <div className="line"></div>
             </div>
         </div>
     )
