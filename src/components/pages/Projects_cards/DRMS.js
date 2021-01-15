@@ -43,12 +43,12 @@ const DRMS = () => {
     return (
         <section className="pt-5">
             <div className="row d-flex">
-                <div className="col-1 order-last">
+                <div align="center" className="col-1 order-last">
                    <div className="lineP2" data-aos="fade-in" data-aos-delay="200"></div>
                 </div>
                 <div className="col-11">
                     <div className="container">
-                        <h1>DRMS</h1>
+                        <h1><span className="text-primary">D</span>RMS</h1>
                         <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" 
                         id="project1" data-aos="flip-up" data-aos-delay="800">
                             <div className="container col-md-3 mt-5 mb-5 order-md-3">

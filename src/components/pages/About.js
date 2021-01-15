@@ -8,10 +8,10 @@ const About = () => {
     })
 
     return (
-        <div id="about" className="pt-5">
+        <div id="about" className="pt-5 pb-5">
         <section className="pt-5">
             <div className="container" data-aos="fade-up" data-aos-delay="500">
-                <h1 align="center">About Me</h1><br/>
+                <h1 align="center" style={{fontSize:"80px"}}><span className="text-primary">A</span>bout <span className="text-primary">M</span>e</h1><br/>
                 <p style={{fontSize:"25px"}}>
                     Currently second year student pursuing my degree in BSc. IT.<br/><br/>
                     I like to flash custom roms and custom recovery on an Android Devices and also like to play with cubes. 
@@ -21,7 +21,7 @@ const About = () => {
                     I am looking forward to do some projects that would help in enhancing my skills and expand my knowledge in this field.
                     I have a pretty good knowledge on MERN stack development.
                 </p><br/>
-                <div className="conatiner" data-aos="fade-up" data-aos-delay="200">
+                {/* <div className="conatiner" data-aos="fade-up" data-aos-delay="200">
                     <h1 className="m-5">Skills</h1>
                     <div className="row" data-aos="fade-up" data-aos-delay="300">
                         <div className="col-md-3">
@@ -73,7 +73,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section><br/>
            <div className="line"></div>

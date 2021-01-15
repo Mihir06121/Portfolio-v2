@@ -22,7 +22,7 @@ const Home = () => {
                         <div className="" data-aos="fade-up" data-aos-delay="200">
                             My code <span className="text-primary">DOES WORK</span>, I have no idea why.
                         </div>
-                        <div className="col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
+                        <div className="pt-5 col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
                     </h1>  
                 </div>
                 <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>

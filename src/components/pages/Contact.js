@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <section id="contact" className="pt-5">
             <div className="container">
-                <h1>Contact Me</h1>
+                <h1><span className="text-primary">C</span>ontact <span className="text-primary">M</span>e</h1>
                 <div className="row p-4">
                     <div className="col-sm" data-aos="zoom-in" data-aos-delay="1000">
                         <Card>

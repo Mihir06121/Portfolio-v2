@@ -15,7 +15,7 @@ const Projects = () => {
 
     return (
         <section className="pt-5" id="projects">
-            <h1 align="center" className="pb-4 pt-4" style={{fontSize:"80px"}}>My Projects</h1>
+            <h1 align="center" className="pb-4 pt-4" style={{fontSize:"80px"}}><span className="text-primary">M</span>y <span className="text-primary">P</span>rojects</h1>
             <div className="mt-3 mb-3 mr-3 ml-3">
                 <div className="vert-move block3 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="1500"></div>
                 <Drive2Park />

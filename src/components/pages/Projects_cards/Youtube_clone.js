@@ -20,12 +20,12 @@ const BloggingPlatform = () => {
     return (
         <section className="pt-5">
             <div className="row d-flex">
-                <div className="col-1 order-first">
+                <div align="center" className="col-1 order-first">
                    <div className="lineP2" data-aos="fade-in" data-aos-delay="200"></div>
                 </div>
                 <div className="col-11">
                     <div className="container">
-                    <h1>Youtube Clone</h1><div className="lineP1" data-aos="fade-in" data-aos-delay="200"></div>
+                    <h1><span className="text-primary">Y</span>outube <span className="text-primary">C</span>lone</h1><div className="lineP1" data-aos="fade-in" data-aos-delay="200"></div>
                     <div className="conatiner project1 row d-flex shadow-lg bg-light align-items-center" 
                     id="project1" data-aos="flip-up" data-aos-delay="800">
                         <div className="container col-md-3 mt-5 mb-5">
