@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div id="about" className="pt-5">
         <section className="pt-5">
-            <div className="container">
+            <div className="container" data-aos="fade-up" data-aos-delay="500">
                 <h1 align="center">About Me</h1><br/>
                 <p style={{fontSize:"25px"}}>
                     Currently second year student pursuing my degree in BSc. IT.<br/><br/>

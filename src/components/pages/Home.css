@@ -457,6 +457,7 @@
 .lineP2 {
 position: relative;
 background-color: skyblue;
+top: 20%;
 left: -10%;
 height: 200px;
 width: 10px;
