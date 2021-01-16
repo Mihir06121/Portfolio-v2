@@ -3,7 +3,9 @@ import React from 'react';
 const Qualification = () => {
     return (
         <div id="qualification" className="pt-5">
-            <h1 align="center" style={{fontSize:"80px"}}><span className="text-primary">M</span>y <span className="text-primary">Q</span>ualifications</h1>
+            <div align="center" className="col-12">
+                <h1 align="center" style={{fontSize:"40px"}}><span className="text-primary">M</span>y <span className="text-primary">Q</span>ualifications</h1>
+            </div>
             <section className="pt-5">
                 <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="700">
                 <h1 className="pl-2">BSc.IT</h1>

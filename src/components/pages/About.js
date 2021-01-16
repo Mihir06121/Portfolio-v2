@@ -11,7 +11,7 @@ const About = () => {
         <div id="about" className="pt-5 pb-5">
         <section className="pt-5">
             <div className="container" data-aos="fade-up" data-aos-delay="500">
-                <h1 align="center" style={{fontSize:"80px"}}><span className="text-primary">A</span>bout <span className="text-primary">M</span>e</h1><br/>
+                <h1 align="center" style={{fontSize:"40px"}}><span className="text-primary">A</span>bout <span className="text-primary">M</span>e</h1><br/>
                 <p style={{fontSize:"25px"}}>
                     Currently second year student pursuing my degree in BSc. IT.<br/><br/>
                     I like to flash custom roms and custom recovery on an Android Devices and also like to play with cubes. 
