@@ -28,7 +28,7 @@ const Contact = () => {
                     <div className="col-sm" data-aos="zoom-in" data-aos-delay="1500">
                         <Card>
                             <CardBody>
-                            <CardTitle tag="h5">Instagam</CardTitle><i className="fab fa-instagram fa-2x"></i>
+                            <CardTitle tag="h5">Instagram</CardTitle><i className="fab fa-instagram fa-2x"></i>
                             <CardText><a className="mx-2 text-dark" href="https://www.instagram.com/_mihir.panchal_/" >_mihir.panchal_</a></CardText>
                             </CardBody>
                         </Card>

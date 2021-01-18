@@ -9,12 +9,12 @@ const Qualification = () => {
             <section className="pt-5 pb-3">
                 <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1000">
                 <h1 className="pl-2">BSc.IT</h1>
-                <h4 className="pt-3 pl-3">Pursunig my BSc.IT degree form Shree L. R. Tiwari 
+                <h4 className="pt-3 pl-3">Pursunig my BSc.IT degree from Shree L. R. Tiwari 
                 degree college of Arts Commerce and Science in Mumbai.</h4>
                 </div><hr/>
                 <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1200">
                 <h1 className="pl-2">Web Development</h1>
-                <h4 className="pt-3 pl-3">I completed my full stack web development course From 
+                <h4 className="pt-3 pl-3">I completed my full stack web development course from 
                 IIDE(Indian Institution of Digital Education) </h4>
                 </div><hr/>
                 <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1400">
