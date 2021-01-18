@@ -16,7 +16,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1500">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1200">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Gmail</CardTitle>
@@ -25,7 +25,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="2000">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1500">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Instagam</CardTitle><i className="fab fa-instagram fa-2x"></i>
@@ -33,7 +33,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="2500">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1800">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Github</CardTitle><i className="fab fa-github fa-2x"></i>
