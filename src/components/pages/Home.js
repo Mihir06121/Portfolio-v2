@@ -17,11 +17,14 @@ const Home = () => {
                 <div className="child-container">
                     <h1 className="p-5">
                         <div className="" data-aos="fade-up" data-aos-delay="00">
-                            My code <span className="text-primary">DOESN’T WORK</span>, I have no idea why.
-                        </div><br/>
-                        <div className="" data-aos="fade-up" data-aos-delay="200">
-                            My code <span className="text-primary">DOES WORK</span>, I have no idea why.
+                            "It is never too <span className="text-primary">late</span>, to be
                         </div>
+                        <div className="pl-3" data-aos="fade-up" data-aos-delay="200">
+                            what you <span className="text-primary">might</span> have been."
+                        </div><br/>
+                        <h5 className="row justify-content-end" data-aos="fade-up" data-aos-delay="400">
+                            - George Eliot
+                        </h5>
                         <div className="pt-5 col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
                     </h1>  
                 </div>
