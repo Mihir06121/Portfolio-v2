@@ -1,9 +1,5 @@
 import React from 'react';
-import Drive2Park from "./Projects_cards/Drive2Park"
-import BloggingPlatform from "./Projects_cards/BloggingPlatform"
-import YoutubeClone from "./Projects_cards/Youtube_clone"
-import DRMS from "./Projects_cards/DRMS"
-import CovidTracker from "./Projects_cards/Covid-19_tracker"
+import {Link} from 'react-router-dom'
 import "./Home.css"
 import AOS from 'aos'
 
@@ -16,21 +12,49 @@ const Projects = () => {
     return (
         <section className="pt-5" id="projects">
             <h1 align="center" className="pb-4 pt-4" style={{fontSize:"40px"}}><span className="text-primary">M</span>y <span className="text-primary">P</span>rojects</h1>
-            <div className="mt-3 mb-3 mr-3 ml-3">
-                <div className="vert-move block3 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-delay="1500"></div>
-                <Drive2Park />
-                <hr className="bg-dark mb-5"/>
-                <BloggingPlatform />
-                <hr className="bg-dark mb-5"/>
-                <YoutubeClone />
-                <div className="vert-move block4 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
-                <hr className="bg-dark mb-5"/>
-                <DRMS />
-                <div className="vert-move block5 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
-                <hr className="bg-dark mb-5"/>
-                <CovidTracker />
-            </div>
-                <div className="line"></div>
+                <section  className="pt-5 pb-5" id="#projects">
+                    <div className="container">
+                        <div className="pl-2 pr-2 row  d-flex justify-content-between shadow-lg mt-2 mb-2">
+                            <div className="project-card card card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" data-aos-delay="200">
+                                <div className="content">
+                                    <h1 className="title">Drive2Park</h1>
+                                    <p className="copy">Advanced MERN Application to Find and Book Parking Space.</p>
+                                    <Link to="/project/drive2Park"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
+                            <div className="project-card card card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" >
+                                <div className="content">
+                                    <h2 className="title">Blogging Platform</h2>
+                                    <p className="copy">Another Mern Appliocation for Multiuser Blogging</p>
+                                    <Link to="/project/bloggingplatform"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
+                            <div className="project-card card card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" data-aos-delay="400">
+                                <div className="content">
+                                    <h2 className="title">YoutubeClone</h2>
+                                    <p className="copy">React application build along with Youtube API</p>
+                                    <Link to="/project/youtubeclone"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="pl-2 pr-2 row  d-flex justify-content-between shadow-lg mt-2 mb-2">
+                            <div className="project-card card card-img2 card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" data-aos-delay="200">
+                                <div className="content">
+                                    <h2 className="title">DRMS</h2>
+                                    <p className="copy">Another MERN application for college mini-project</p>
+                                    <Link to="/project/drms"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
+                            <div className="project-card card card-img2 card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" >
+                                <div className="content">
+                                    <h2 className="title">Covid19-Tracker</h2>
+                                    <p className="copy">Description of project</p>
+                                    <Link to="/project/covid19-tracker"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </section>
     )
 }

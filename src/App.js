@@ -7,50 +7,52 @@ import Home from '../src//components/pages/Home'
 import About from '../src//components/pages/About'
 import Projects from '../src//components/pages/Projects'
 import Qualification from '../src/components/pages/Qualification'
-// import Contact from '../src//components/pages/Contact'
 import Footer from '../src//components/Footer'
 import NavBar from '../src/components/Header'
+import Drive2Park from '../src/components/pages/Projects_cards/Drive2Park'
+import BloggingPlatform from './components/pages/Projects_cards/BloggingPlatform'
+import DRMS from './components/pages/Projects_cards/DRMS'
+import YoutubeClone from './components/pages/Projects_cards/Youtube_clone'
+import CovidTracker from './components/pages/Projects_cards/Covid-19_tracker'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AOS from 'aos'
 
 const App = () => {
-
-  // const [isLoading, setLoading] = useState(true);
-
-  // function fakeRequest() {
-  //   return new Promise(resolve => setTimeout(() => resolve(), 200));
-  // }
-
-  // useEffect(() => {
-  //   fakeRequest().then(() => {
-  //     const el = document.querySelector(".loader-container");
-  //     if (el) {
-  //       el.remove();
-  //       setLoading(!isLoading);
-  //     }
-  //   });
-  // }, []);
-
-  // if (isLoading) {
-  //   return null;
-  // }
 
   AOS.init({
     duration: '800',
   })
 
-  // let suggestion = "For better experience switch to desktop site"
-  // alert(suggestion)
-
   return (
     <>
     <div className="container">
-      <NavBar className="fixed-top" />
-      <Home />
-      <About />
-      <Projects />
-      <Qualification />
-      {/* <Contact /> */}
-      <Footer/>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <NavBar className="fixed-top" />
+            <Home />
+            <About />
+            <Projects />
+            <Qualification />
+            <Footer/>
+          </Route>
+          <Route exact path="/project/Drive2Park">
+            <Drive2Park />
+          </Route>
+          <Route exact path="/project/Bloggingplatform">
+            <BloggingPlatform />
+          </Route>
+          <Route exact path="/project/drms">
+            <DRMS />
+          </Route>
+          <Route exact path="/project/YoutubeClone">
+            <YoutubeClone />
+          </Route>
+          <Route exact path="/project/Covid19-Tracker">
+            <CovidTracker />
+          </Route>
+        </Switch>
+      </Router>
     </div>
     </>
   );
