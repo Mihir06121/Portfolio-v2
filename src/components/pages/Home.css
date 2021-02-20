@@ -390,7 +390,7 @@
 	-webkit-animation: roll 3s infinite alternate ease-in-out;
 			animation: roll 3s infinite alternate ease-in-out;
 	opacity: 5;
-	z-index: 10;
+	z-index: 5;
   }
   
   @-webkit-keyframes roll {

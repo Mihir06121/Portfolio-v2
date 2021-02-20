@@ -1,46 +1,53 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
   NavLink,
 } from 'reactstrap';
-import "./Header.css";
-// import profile from "../images/image1.png";
+import "./pages/Nav.css";
 
 const NavBar = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="fixed-top bg-light shadow-lg bb">
-      <Navbar className="ml-4 mr-4" light expand="md">
-        <NavbarBrand className="underline-color" href="#home"><h2>
-            {/* <img className="d-inline-block align-top" width="50" height="50" src={profile}  alt="" /> */}
-            <span className="text-primary">Mihir</span> Panchal</h2></NavbarBrand>
-        <NavbarToggler onClick={toggle}/>
-            <Collapse className="mr-0" isOpen={isOpen} navbar>
-            <Nav className="rightNav ml-auto text-dark" navbar>
-                <NavItem className="pr-2">
-                <NavLink className="underline-color" href="#about" onClick={toggle}><h4><span className="text-primary">A</span>bout</h4></NavLink>
-                </NavItem>
-                <NavItem className="pr-2">
-                <NavLink className="underline-color" href="#projects" onClick={toggle}><h4><span className="text-primary">P</span>rojects</h4></NavLink>
-                </NavItem>
-                <NavItem className="pr-2">
-                <NavLink className="underline-color" href="#qualification" onClick={toggle}><h4><span className="text-primary">Q</span>ualification</h4></NavLink>
-                </NavItem>
-                <NavItem className="pr-2">
-                <NavLink className="underline-color" href="#contact" onClick={toggle}><h4><span className="text-primary">C</span>ontact</h4></NavLink>
-                </NavItem>
-            </Nav>
-            </Collapse>         
-      </Navbar>
+   
+
+
+    <div>
+      <div class="navigation">
+			<input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
+
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">
+					<span class="navigation__icon-span"></span>
+					<span class="navigation__icon-span"></span>
+					<span class="navigation__icon-span"></span>
+					<span class="navigation__icon-span"></span>
+					<span class="navigation__icon-span"></span>
+					<span class="navigation__icon-span"></span>
+				</span>
+			</label>
+
+			<div for="navi-toggle" class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list" id="navi-toggle">
+					<li for="navi-toggle" class="navigation__item">
+            <NavLink className="navigation__link" href="#about"><span className="text-primary">A</span>bout</NavLink>
+					</li>
+					<li for="navi-toggle" class="navigation__item">
+          <NavLink className="navigation__link" href="#projects"><span className="text-primary">P</span>rojects</NavLink>
+					</li>
+					<li for="navi-toggle" class="navigation__item" >
+          <NavLink className="navigation__link" href="#qualification"><span className="text-primary">Q</span>ualification</NavLink>
+					</li>
+					<li for="navi-toggle" class="navigation__item">
+          <NavLink className="navigation__link" href="#contact"><span className="text-primary">C</span>ontact</NavLink>
+					</li>
+				</ul>
+			</nav>
+		</div>
+  
     </div>
+
+
   );
 }
 

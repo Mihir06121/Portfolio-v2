@@ -15,18 +15,24 @@ const Home = () => {
         <div className="p-lg-5">
             <section className="parent-container pt-5 pb-5">
                 <div className="child-container">
-                    <h1 className="p-5">
-                        <div className="" data-aos="fade-up" data-aos-delay="00">
-                            "It is never too <span className="text-primary">late</span>, to be
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 className="p-5">
+                                <div data-aos="fade-up" data-aos-delay="00">
+                                    Two things are infinite: 
+                                </div>
+                                <div className="" data-aos="fade-up" data-aos-delay="100">
+                                    The <span className="text-primary">universe</span> and human stupidity,
+                                </div>
+                                <div className="" data-aos="fade-up" data-aos-delay="200">
+                                    and I'm not sure about the <span className="text-primary">universe</span>.
+                                </div>
+                                <div className="pt-5 col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
+                            </h1> 
                         </div>
-                        <div className="pl-3" data-aos="fade-up" data-aos-delay="200">
-                            what you <span className="text-primary">might</span> have been."
-                        </div><br/>
-                        <h5 className="row justify-content-end" data-aos="fade-up" data-aos-delay="400">
-                            - George Eliot
-                        </h5>
-                        <div className="pt-5 col-md-4 p-2 bottom-border" data-aos="fade-left" data-aos-delay="600"></div>
-                    </h1>  
+                    </div>
+                </div>
                 </div>
                 <div className="vert-move block6 shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div>
                 {/* <div className="vert-move block shadow-lg" data-aos="zoom-in" data-aos-easing="ease-out-back"></div> */}
