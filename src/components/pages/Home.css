@@ -1,3 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
 .text-large{
     font-size: 50px;
 }
@@ -478,4 +482,14 @@ z-index: 10;
 
 .project-header{
 	font-size: 100px;
+}
+
+.bg-t{
+	background: transparent;
+}
+.but-bg{
+	background-color: #0d6efd;
+}
+.but-bg:hover{
+	background-color: #0d39fd;
 }

@@ -15,9 +15,9 @@ const Home = () => {
         <div className="p-lg-5">
             <section className="parent-container pt-5 pb-5">
                 <div className="child-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
                             <h1 className="p-5">
                                 <div data-aos="fade-up" data-aos-delay="00">
                                     Two things are infinite: 

@@ -1,54 +1,55 @@
-import React from 'react';
-import {
-  NavLink,
+import React, {useState} from 'react';
+import { Button, Collapse, Card, CardBody
 } from 'reactstrap';
 import "./pages/Nav.css";
 
 const NavBar = (props) => {
 
-  return (
-   
+	const [isOpen, setIsOpen] = useState(false);
 
+	const toggle = () => setIsOpen(!isOpen);
 
-    <div>
-      <div class="navigation">
-			<input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
-
-			<label for="navi-toggle" class="navigation__button">
-				<span class="navigation__icon">
-					<span class="navigation__icon-span"></span>
-					<span class="navigation__icon-span"></span>
-					<span class="navigation__icon-span"></span>
-					<span class="navigation__icon-span"></span>
-					<span class="navigation__icon-span"></span>
-					<span class="navigation__icon-span"></span>
+return (
+	<div align="right" className="fixed-top">
+		<div className="p-5 border-0">
+			<Button onClick={toggle}>	
+			<label className="navigation__button">
+				<span className="navigation__icon">
+					<span className="navigation__icon-span">&nbsp;</span>
+					<span className="navigation__icon-span">&nbsp;</span>
+					<span className="navigation__icon-span">&nbsp;</span>
+					<span className="navigation__icon-span">&nbsp;</span>
+					<span className="navigation__icon-span">&nbsp;</span>
+					<span className="navigation__icon-span">&nbsp;</span>
 				</span>
-			</label>
-
-			<div for="navi-toggle" class="navigation__background">&nbsp;</div>
-
-			<nav class="navigation__nav">
-				<ul class="navigation__list" id="navi-toggle">
-					<li for="navi-toggle" class="navigation__item">
-            <NavLink className="navigation__link" href="#about"><span className="text-primary">A</span>bout</NavLink>
-					</li>
-					<li for="navi-toggle" class="navigation__item">
-          <NavLink className="navigation__link" href="#projects"><span className="text-primary">P</span>rojects</NavLink>
-					</li>
-					<li for="navi-toggle" class="navigation__item" >
-          <NavLink className="navigation__link" href="#qualification"><span className="text-primary">Q</span>ualification</NavLink>
-					</li>
-					<li for="navi-toggle" class="navigation__item">
-          <NavLink className="navigation__link" href="#contact"><span className="text-primary">C</span>ontact</NavLink>
-					</li>
-				</ul>
-			</nav>
-		</div>
-  
-    </div>
-
-
-  );
+			</label></Button>
+			<Collapse className="pt-5" isOpen={isOpen}>
+				<Card className="border-0 bg-t">
+				<CardBody className="border-0 ml-auto" align="right">
+					<ul>
+						<li>		
+							<Button className="rounded-lg but-bg text-white" href="#home" onClick={toggle} style={{ marginBottom: '1rem' }}><h1>Home</h1></Button>
+						</li>
+						<li>
+							<Button className="rounded-lg but-bg text-white" href="#about" onClick={toggle} style={{ marginBottom: '1rem' }}><h1>About</h1></Button>
+						</li>
+						<li>
+							<Button className="rounded-lg but-bg text-white" href="#projects" onClick={toggle} style={{ marginBottom: '1rem' }}><h1>Projects</h1></Button>
+						</li>
+						<li>
+							<Button className="rounded-lg but-bg text-white" href="#qualification" onClick={toggle} style={{ marginBottom: '1rem' }}><h1>Qualification</h1></Button>
+						</li>
+						<li>
+							<Button className="rounded-lg but-bg text-white" href="#contact" onClick={toggle} style={{ marginBottom: '1rem' }}><h1>Contact</h1></Button>
+						</li>
+					</ul>
+					
+				</CardBody>
+				</Card>
+			</Collapse>
+		</div>	
+	</div>
+);
 }
 
 export default NavBar;

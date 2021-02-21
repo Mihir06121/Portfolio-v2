@@ -24,11 +24,11 @@ const App = () => {
 
   return (
     <>
+    <NavBar className="fixed-top" />
     <div className="container">
       <Router>
         <Switch>
           <Route exact path="/">
-            <NavBar className="fixed-top" />
             <Home />
             <About />
             <Projects />
