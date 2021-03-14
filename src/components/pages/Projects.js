@@ -52,6 +52,13 @@ const Projects = () => {
                                     <Link to="/project/covid19-tracker"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
                                 </div>
                             </div>
+                            <div className="project-card card card-img2 card-img col-md ml-2 mr-2 mt-2 mb-2" data-aos="zoom-in" >
+                                <div className="content">
+                                    <h2 className="title">TechNova21</h2>
+                                    <p className="copy">Description of project</p>
+                                    <Link to="/project/technova21"><button className="btn btn-lg btn-primary btn-block">View Project</button></Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
             </section>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
@@ -13,8 +13,19 @@ import BloggingPlatform from './components/pages/Projects_cards/BloggingPlatform
 import DRMS from './components/pages/Projects_cards/DRMS'
 import YoutubeClone from './components/pages/Projects_cards/Youtube_clone'
 import CovidTracker from './components/pages/Projects_cards/Covid-19_tracker'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Technova21 from './components/pages/Projects_cards/TechbNova21'
+import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
 import AOS from 'aos'
+
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children
+}
+
+const ScrollToTop = withRouter(_ScrollToTop)
 
 const App = () => {
 
@@ -27,6 +38,7 @@ const App = () => {
     <div className="container">
       <Router>
         <Switch>
+          <ScrollToTop>
           <Route exact path="/">
             <NavBar className="fixed-top" />
             <Home />
@@ -50,6 +62,10 @@ const App = () => {
           <Route exact path="/project/Covid19-Tracker">
             <CovidTracker />
           </Route>
+          <Route exact path="/project/technova21">
+            <Technova21 />
+          </Route>
+          </ScrollToTop>
         </Switch>
       </Router>
     </div>
