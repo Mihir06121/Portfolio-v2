@@ -112,6 +112,9 @@ ul {
 .card-img2:nth-child(2):before {
 	background-image: url(../../images/assects/Annotation\ 2020-12-28\ 113046.png);
 }
+.card-img:nth-child(3):before {
+	background-image: url(../../images/assects/technova21.png);
+}
  .content {
 	 position: relative;
 	 display: flex;
