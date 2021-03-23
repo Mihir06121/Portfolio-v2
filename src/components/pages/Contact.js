@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="container">
                 <h1><span className="text-primary">C</span>ontact <span className="text-primary">M</span>e</h1>
                 <div className="row p-4">
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1000">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="800">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Phone</CardTitle>
@@ -16,7 +16,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1200">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="800">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Gmail</CardTitle>
@@ -25,7 +25,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1500">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="800">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Instagram</CardTitle><i className="fab fa-instagram fa-2x"></i>
@@ -33,7 +33,7 @@ const Contact = () => {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="1800">
+                    <div className="col-sm" data-aos="zoom-in" data-aos-delay="800">
                         <Card>
                             <CardBody>
                             <CardTitle tag="h5">Github</CardTitle><i className="fab fa-github fa-2x"></i>

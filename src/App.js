@@ -14,6 +14,7 @@ import DRMS from './components/pages/Projects_cards/DRMS'
 import YoutubeClone from './components/pages/Projects_cards/Youtube_clone'
 import CovidTracker from './components/pages/Projects_cards/Covid-19_tracker'
 import Technova21 from './components/pages/Projects_cards/TechbNova21'
+import ContactForm from './components/ContactForm'
 import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
 import AOS from 'aos'
 
@@ -45,6 +46,7 @@ const App = () => {
             <About />
             <Projects />
             <Qualification />
+            <ContactForm />
             <Footer/>
           </Route>
           <Route exact path="/project/Drive2Park">

@@ -12,17 +12,17 @@ const Qualification = () => {
                 <h4 className="pt-3 pl-3">Pursunig my BSc.IT degree from Shree L. R. Tiwari 
                 degree college of Arts Commerce and Science in Mumbai.</h4>
                 </div><hr/>
-                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1200">
+                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1000">
                 <h1 className="pl-2">Web Development</h1>
                 <h4 className="pt-3 pl-3">I completed my full stack web development course from 
                 IIDE(Indian Institution of Digital Education) </h4>
                 </div><hr/>
-                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1400">
+                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1000">
                 <h1 className="pl-2">Junior College(Science)</h1>
                 <h4 className="pt-3 pl-3">I completed my junior college in Science from 
                 Mother Mary Junior College of Science and Commerce Mumbai.</h4>
                 </div><hr/>
-                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1600">
+                <div className="left-border m-3 pt-5" data-aos="fade-left" data-aos-delay="1000">
                 <h1 className="pl-2">School</h1>
                 <h4 className="pt-3 pl-3">I completed my schooling from ST. Xavier's High School in Mumbai.</h4>
                 </div>
