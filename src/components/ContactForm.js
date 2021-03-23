@@ -14,23 +14,19 @@ const ContactForm = () => {
         </div>
         <br/>
         <div className="md-form mb-0">
-            <input type="text" id="email" name="email" className="form-control" placeholder="Your Email"/>
+            <input type="text" id="email" name="email" className="form-control" required="true" placeholder="Your Email"/>
         </div>
         <br/>
         <div className="md-form">
-            <textarea type="text" id="message" name="message" rows="10" className="form-control md-textarea" placeholder="Send me a message"></textarea>
+            <textarea type="text" id="message" name="message" rows="10" className="form-control md-textarea" required="true" placeholder="Send me a message"></textarea>
         </div>
         <br/>
-        <Link to="#home"><button className=" btn btn-primary button-success pure-button button-xlarge" >Send</button></Link>
+        <Link to="/formsubmitted"><button className=" btn btn-primary pure-buton button-success pure-button button-xlarge" >Send</button></Link>
         
-    </form>
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
 
-    <div style={{display:"none"}} id="thankyou_message">
-        <h2>
-            <em>Thanks</em> for contacting us!
-            We will get back to you soon!
-        </h2>
-    </div>
+    </form>
     </div>
     )
 } 
