@@ -14,8 +14,8 @@ import DRMS from './components/pages/Projects_cards/DRMS'
 import YoutubeClone from './components/pages/Projects_cards/Youtube_clone'
 import CovidTracker from './components/pages/Projects_cards/Covid-19_tracker'
 import Technova21 from './components/pages/Projects_cards/TechbNova21'
-import ContactForm from './components/ContactForm'
-import FormSubmitted from "./components/pages/FormSubmitted"
+// import ContactForm from './components/ContactForm'
+// import FormSubmitted from "./components/pages/FormSubmitted"
 import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
 import AOS from 'aos'
 
@@ -68,9 +68,9 @@ const App = () => {
           <Route exact path="/project/technova21">
             <Technova21 />
           </Route>
-          <Route exact path="/formsubmitted">
-            <FormSubmitted />
-          </Route>
+//           <Route exact path="/formsubmitted">
+//             <FormSubmitted />
+//           </Route>
           </ScrollToTop>
         </Switch>
       </Router>
