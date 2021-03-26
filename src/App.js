@@ -68,9 +68,9 @@ const App = () => {
           <Route exact path="/project/technova21">
             <Technova21 />
           </Route>
-          <Route exact path="/formsubmitted">
-            <FormSubmitted />
-          </Route>
+//           <Route exact path="/formsubmitted">
+//             <FormSubmitted />
+//           </Route>
           </ScrollToTop>
         </Switch>
       </Router>
