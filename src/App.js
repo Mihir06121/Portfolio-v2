@@ -37,6 +37,11 @@ const App = () => {
 
   return (
     <>
+		<div className="p-5">
+			<h1>
+			<span className="text-primary">M</span>ihir <span className="text-primary">P</span>anchal
+			</h1>
+		</div>
     <div className="container">
       <Router>
         <Switch>
@@ -68,9 +73,6 @@ const App = () => {
           <Route exact path="/project/technova21">
             <Technova21 />
           </Route>
-//           <Route exact path="/formsubmitted">
-//             <FormSubmitted />
-//           </Route>
           </ScrollToTop>
         </Switch>
       </Router>
